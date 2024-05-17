@@ -12,7 +12,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<AppShell />}>
-              <Route path="state" element={<StateRedux />} />
+              <Route index element={<StateRedux />} />
             </Route>
           </Routes>
         </BrowserRouter>
