@@ -12,7 +12,7 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className={styles.navlink} to="">
+          <NavLink className={styles.navlink} to="thunks">
             APIs, thunks and Effects
           </NavLink>
         </li>

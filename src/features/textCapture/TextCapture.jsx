@@ -13,13 +13,17 @@ const TextCapture = () => {
   console.log(capturedText);
   return (
     <div className={styles.div}>
-      <input
+      <textarea
         type="text"
         value={capturedText}
         onChange={handleChange}
         placeholder="Write anything"
         className={styles.input}
-      />
+        autoFocus
+        rows={6}
+        cols={40}
+      ></textarea>
+      <span className={styles.span}>Anything you write will appear here: </span>
       <h2 className={styles.h2}>{capturedText}</h2>
     </div>
   );

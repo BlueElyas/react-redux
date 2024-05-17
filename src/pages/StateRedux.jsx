@@ -1,11 +1,14 @@
 import React from "react";
 import TextCapture from "../features/textCapture/TextCapture";
+import Counter from "../features/counter/Counter";
 
 const StateRedux = () => {
   return (
-    <div>
+    <main>
       <TextCapture />
-    </div>
+      <br />
+      <Counter />
+    </main>
   );
 };
 
