@@ -1,0 +1,20 @@
+.header {
+  background-color: #4a6772;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.navlink {
+  color: #f3e482;
+  text-decoration: none;
+}
+.navlink:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
