@@ -7,7 +7,7 @@ const Header = () => {
     <header className={styles.header}>
       <ul className={styles.ul}>
         <li>
-          <NavLink className={styles.navlink} to="state">
+          <NavLink className={styles.navlink} to="/">
             State and Redux
           </NavLink>
         </li>
